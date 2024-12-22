@@ -32,13 +32,13 @@ const skillItem = [
       desc: 'Web Server'
     },
     {
-      imgSrc: '/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework'
+      imgSrc: '/images/symfony.svg',
+      label: 'Symfony',
+      desc: 'PHP Framework'
     },
     {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
+      imgSrc: '/images/mysql.svg',
+      label: 'MySQL',
       desc: 'Database'
     },
     {

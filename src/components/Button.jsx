@@ -15,8 +15,8 @@ import PropTypes from "prop-types";
  */
 
 const ButtonPrimary = ({
-    href,
-    target = '_self',
+    href = 'https://drive.google.com/file/d/1yGS2QnyKhzNDeF-6IvJDYQSLHA2wQywt/view?usp=sharing',
+    target = '_blank',
     label,
     icon,
     classes
