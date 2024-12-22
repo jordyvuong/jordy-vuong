@@ -59,11 +59,11 @@ const Skill = () => {
     <section className="section">
         <div className="container">
 
-            <h2 className="headline-2">
+            <h2 className="headline-2 reveal-up">
                 Outils essentiels que j'utilise
             </h2>
 
-            <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+            <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
                 Découvrez les outils et technologies que j'utilise pour créer des sites web et des applications exceptionnels et performants.
             </p>
 
@@ -75,6 +75,7 @@ const Skill = () => {
                             imgSrc={imgSrc}
                             label={label}
                             desc={desc}
+                            classes="reveal-up"
                         />
                     ))
                 }

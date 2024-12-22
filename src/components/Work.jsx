@@ -57,7 +57,7 @@ const Work = () => {
     >
         <div className="container">
 
-        <h2 className="headline-2 mb-8">
+        <h2 className="headline-2 mb-8 reveal-up">
             Les points forts de mon portfolio
         </h2>
 
@@ -68,7 +68,8 @@ const Work = () => {
                     imgSrc={imgSrc}
                     title={title}
                     tags={tags}
-                    projectLink={projectLink}    
+                    projectLink={projectLink}
+                    classes="reveal-up"    
                 />
             ))}
         </div>
